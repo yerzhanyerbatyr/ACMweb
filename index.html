@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app/scss/style.css">
+    <title>ACM at NU</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="flex flex-js-sb flex-ai-c">
+            <a href="#" class = "header__logo">
+                <img src="./assets/images/logo.svg" alt="ACT at NU">
+            </a>
+
+            <a href="#" class="header__menu hide-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <div class="header__links hide-mobile">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Events</a>
+            </div>
+
+            <select class="header__lang_change hide-mobile">
+                <option value="eng" selected>ENG</option>
+                <option value="kz">KAZ</option>
+                <option value="ru">RUS</option>
+            </select>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero__text">
+            <h1>
+                Aspire. Code. Move
+            </h1>
+            <p>
+                Advancing Computing as a Science & Profession <br> among students
+            </p>
+            <a href="#" class="btnACM">Participate in our events</a>
+        </div>
+        <div class="hero__image">
+            <img src="./assets/images/iconicphoto.png" alt="">
+        </div> 
+    </section>
+
+    <section class="descACM">
+        <div class="descACM__carousel">
+            <button class="descACM__carousel__button descACM__carousel__button--left">
+                <img class="descACM__carousel__button__image" src="./assets/images/chevron-left.png" alt="">
+            </button>
+                <div class="descACM__carousel__track-container">
+                    <div class="descACM__carousel__track-container__slide 0 descACM__carousel__track-container__slide--active">
+                        <img src="./assets/images/2023.png" alt="">
+                    </div>
+                    <div class="descACM__carousel__track-container__slide 1">
+                        <img src="./assets/images/2022.png" alt="">
+                    </div>
+                    <div class="descACM__carousel__track-container__slide 2">
+                        <img src="./assets/images/2019.png" alt="">
+                    </div>
+                </div>
+            <button class="descACM__carousel__button descACM__carousel__button--right">
+                <img class="descACM__carousel__button__image" src="./assets/images/chevron-right.png" alt="">
+            </button>
+            <div class="descACM__carousel__nav">
+                <button class="descACM__carousel__indicator 0 descACM__carousel__indicator-active"></button>
+                <button class="descACM__carousel__indicator 1"></button>
+                <button class="descACM__carousel__indicator 2"></button>
+            </div>
+        </div> 
+
+        <div class="descACM__text">
+            <h2>The largest Computer Science community at NU</h2>
+            <p>Nazarbayev University ACM Student Chapter is the first branch of the international ACM organization in Kazakhstan. Since 2017 we provide unique opportunities for networking, mentoring and bonding over common interests both within Nazarbayev University and locally.</p>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./app/js/script.js"></script>
+</body>
+</html>
